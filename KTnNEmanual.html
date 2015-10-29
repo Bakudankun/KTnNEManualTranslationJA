@@ -1,0 +1,682 @@
+
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Keep Talking and Nobody Explodes v. 1</title>
+    <meta name="viewport" content="initial-scale=1"> 
+
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link href='http://fonts.googleapis.com/css?family=Special+Elite' rel='stylesheet' type='text/css'>
+	<link rel="icon" href="favicon.ico" type="image/png">
+	<link rel="apple-touch-icon-precomposed" href="apple-touch-icon-precomposed.png">
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-48421906-2', 'auto');
+	  ga('send', 'pageview');
+
+	</script>
+</head>
+<body>
+    <div id="ManualContent">
+    <div class="section">
+    
+    <div class="page section-title">
+		<div style="position:relative; height:0;">&nbsp;</div> 
+		<div class="page-footer absolute-footer no-auto-footer">Revision 2</div>
+        <div class="page-content">
+			<img src="img/ktane-logo.png" alt="Keep Talking and Nobody Explodes" style="margin: 1em auto .2em; width: 42em;" />
+    	    <h1 style="font-size: 1em; font-weight: normal; margin: 2em auto 0;"><span style="display: inline-block; font-size: 13.6em;">BOMB</span><br /><span style="display: inline-block; font-size: 7.9em; position: relative; top: -.93em; height: 0;">DEFUSAL</span><br /><span style="display: inline-block; font-size: 9.2em; position: relative; top: -0.93em; height: 0;">MANUAL</span></h1>
+			<h2 style="margin: 0 auto; text-decoration: none; line-height: 1em; font-size: 2.8em;  position: relative; top: -0.98em; height: 0;">Version 1							<br />
+				<span style="font-size: 0.57em; font-weight: normal;">Verification Code: 241</span>
+					<br />
+				<span style="font-size: 0.57em; font-weight: normal;">非公式日本語翻訳版</span>
+			</h2>
+        </div>
+		<div class="page-footer relative-footer no-auto-footer">Revision 2</div>
+    </div>
+</div><div class="section">
+    <div class="section">
+    <div class="page section-title">
+        		<div class="page-header">
+			<span class="page-header-doc-title">Keep Talking and Nobody Explodes v. 1</span>
+			<span class="page-header-section-title">Introduction</span>
+		</div>
+        <div class="page-footer absolute-footer"></div>
+        <div class="page-content">
+            <div class="vertical-spacer"></div>
+            
+            <p style="font-style:italic;">Welcome to the dangerous and challenging world of bomb defusing.</p>
+            <p style="font-style:italic;">当マニュアルをよくご確認下さい; <em style="font-style:italic;">貴方はエキスパートです</em>。 <br />当マニュアルには爆弾の最も狡猾な部分を含む全てが記載されています。<br />少しでも見落とすと全てが破滅してしまいます！</p>
+        </div>
+        <div class="page-footer relative-footer"></div>
+    </div>
+
+    <div class="page">
+        		<div class="page-header">
+			<span class="page-header-doc-title">Keep Talking and Nobody Explodes v. 1</span>
+			<span class="page-header-section-title">Defusing Bombs</span>
+		</div>
+        <div class="page-footer absolute-footer"></div>
+        <div class="page-content">
+            <h1>爆弾解除方法</h1>
+            
+			<p>爆弾はカウントダウンタイマーが0:00に達した際、又は失敗回数が超過した際に爆発します。爆弾はタイマーが切れる前に全てのモジュールを解除することにより無効化されます。</p>
+			
+			<div class="bomb-diagram">
+				<span class="diagram-label">爆弾の例</span><br />
+				<table><tr><td><img src="img/Bomb.svg"/><br />前面</td><td><img src="img/BombSide.svg"/><br />側面</td></tr></table>
+			</div>
+			
+			<h3>モジュール</h3>
+			<p>本体には最大11個のモジュールが付属しています。各モジュールは独立しており任意の順序で解除できます。</p>
+			<p>1章にて各モジュールの解除方法を説明します。2章では特殊な「Needyモジュール」の対処法を説明します。</p>
+			
+            
+            <h3>ストライク</h3>
+			<div class="timer-diagram">ストライクインジケータ<br /><img src="img/TimerComponent.svg"/></div>
+            <p>解除者が対処を誤った場合、カウントダウンタイマーの上部にあるストライクインジケータにて失敗の回数が記録されます。ストライクインジケータのある爆弾については3回目の失敗が記録された時に爆弾は爆発します。また失敗が記録された以降はカウントダウンタイマーがより早く動作します。</p>
+			<p>カウントダウンタイマー上部にインジケータがない場合については爆弾は初回の失敗時に爆発します。</p>
+
+			<h3>Gathering Information</h3>
+			<p>解除方法の中にはシリアルナンバー等の爆弾の固有情報を要する項目があります。各情報は筐体の側面にてご確認下さい。巻末の付録A,B,Cにおいて解除方法に使用する各情報を記載しています。</p>
+        </div>
+        <div class="page-footer relative-footer"></div>
+    </div>
+</div>
+<div class="section">
+    <div class="page section-title">
+        		<div class="page-header">
+			<span class="page-header-doc-title">Keep Talking and Nobody Explodes v. 1</span>
+			<span class="page-header-section-title">Section 1: Modules</span>
+		</div>
+        <div class="page-footer absolute-footer"></div>
+        <div class="page-content">
+            <div class="vertical-spacer"></div>
+		    <img src="img/Component.svg" class="diagram" />
+			<div class="new-block-formatting-context">
+				<h1>Section 1: Modules</h1>
+				<p>モジュールには右上部にLEDが接続されています。<br />モジュールは解除されるとLEDが緑色に発光します。</p>
+				<p>爆弾を無効化するためには<br />全てのモジュールを解除する必要があります。</p>
+			</div>
+        </div>
+        <div class="page-footer relative-footer"></div>
+    </div>
+</div>
+<div class="section">
+    <div class="page">
+        		<div class="page-header">
+			<span class="page-header-doc-title">Keep Talking and Nobody Explodes v. 1</span>
+			<span class="page-header-section-title">Wires</span>
+		</div>
+        <div class="page-footer absolute-footer"></div>
+        <div class="page-content">
+    	    <img src="img/WireComponent.svg" class="diagram" />
+            <h2>On the Subject of Wires</h2>
+            <p class="flavour-text">
+                Wires are the lifeblood of electronics! Wait, no, electricity is the lifeblood. Wires are more like the arteries. The veins? No matter…</p>
+
+			<ul>
+				<li>ワイヤーモジュールには3～6本のワイヤーが接続されています。</li>
+				<li>解除の際には正しいワイヤーを<em>1本だけ</em>切断して下さい。</li>
+				
+				<li>ワイヤーの順序については最も上にあるワイヤーから昇順に数えます。</li>
+				<li>訳注：各本数における指示は先に記載されている指示を優先します。</li>
+			</ul>
+
+			<table>
+				<tr><td><strong><em>3 wires:</em></strong>	<br />
+				赤色のワイヤーがない場合、二番目のワイヤーを切断してください。<br />
+				または最後のワイヤーが白い場合、最後のワイヤーを切断してください。<br />
+				または青色のワイヤーが二本以上ある場合、最後の青色のワイヤーを切断してください。<br />
+				それ以外の場合は最後のワイヤーを切断してください。</tr><tr><td><strong><em>4 wires:</em></strong><br />
+				赤色のワイヤーが二本以上ありシリアルナンバーの末尾が奇数の場合、最後の赤色のワイヤーを切断してください。<br />
+				または最後のワイヤーが黄色であり赤色のワイヤーがない場合、最初のワイヤーを切断してください。<br />
+				または青色のワイヤーが一本だけある場合、最初のワイヤーを切断してください。<br />
+				または黄色のワイヤーが二本以上ある場合、最後のワイヤーを切断してください。<br />
+				それ以外の場合は二番目のワイヤーを切断してください。</tr><tr><td><strong><em>5 wires:</em></strong><br />
+				最後のワイヤーが黒色でシリアルナンバーの末尾が奇数の場合、四番目のワイヤーを切断してください。<br />
+				または赤色のワイヤーが一本だけで黄色のワイヤーが二本以上ある場合、最初のワイヤーを切断してください。<br />
+				または黒色のワイヤーがない場合、二番目のワイヤーを切断してください。<br />
+				それ以外の場合は最初のワイヤーを切断してください。</tr><tr><td><strong><em>6 wires:</em></strong><br />
+				黄色のワイヤーがなくシリアルナンバーの末尾が奇数の場合、三番目のワイヤーを切断してください。<br />
+				または黄色のワイヤーが一本だけで白色のワイヤーが二本以上ある場合、四番目のワイヤーを切断してください。<br />
+				または赤色のワイヤーがない場合、最後のワイヤーを切断してください。<br />
+				それ以外の場合は四番目のワイヤーを切断してください。</tr>			</table>
+        </div>
+        <div class="page-footer relative-footer"></div>
+    </div>
+</div>
+<div class="section">
+    <div class="page">
+        		<div class="page-header">
+			<span class="page-header-doc-title">Keep Talking and Nobody Explodes v. 1</span>
+			<span class="page-header-section-title">The Button</span>
+		</div>
+        <div class="page-footer absolute-footer"></div>
+        <div class="page-content">
+    	    <img src="img/ButtonComponent.svg" class="diagram" />
+            <h2>On the Subject of The Button</h2>
+            <p class="flavour-text">You might think that a button telling you to press it is pretty straightforward. That’s the kind of thinking that gets people exploded.</p>
+            <p class="appendix-reference">各インジケータの識別には付録Aをご利用下さい。<br />各バッテリーの識別には付録Bをご利用下さい。</p>
+            <p>記載されている順に下記の指示に従って下さい。:</p>
+		    <ol>
+		    	<li>ボタンが青色で"Abort"と印字されている場合、ボタンを押下したまま"Releasing a Held Button"の指示に従って下さい。</li>
+		    	<li>爆弾に二個以上のバッテリーが接続されていてボタンに"Detonate"と印字されている場合、ボタンを押下し即座に離して下さい。</li>
+		    	<li>ボタンが白色でCARと表記されたインジケータが発光している場合、ボタンを押下したまま"Releasing a Held Button"の指示に従って下さい。</li>
+		    	<li>爆弾に三個以上のバッテリーが接続されていてFRKと表記されたインジケータが発光している場合、ボタンを押下し即座に離して下さい。</li>
+		    	<li>ボタンが黄色の場合、ボタンを押下したまま"Releasing a Held Button"の指示に従って下さい。</li>
+		    	<li>ボタンが赤色で"Hold"と印字されている場合、ボタンを押下し即座に離して下さい。</li>
+		    	<li>上記のどの条件にも当てはまらない場合、ボタンを押下したまま"Releasing a Held Button"の指示に従って下さい。</li>
+            </ol>
+		    <h3>Releasing a Held Button</h3>
+            <p>ボタンを押下するとモジュール右部の帯ランプが発色します。ランプの色に応じて適切な時点でボタンを離して下さい。</p>
+            <ul>
+           		<li><em>青:</em> カウントダウンタイマーのいずれかの位置に4が表示されている時</li><li><em>白:</em> カウントダウンタイマーのいずれかの位置に1が表示されている時</li><li><em>黄:</em> カウントダウンタイマーのいずれかの位置に5が表示されている時</li><li><em>その他:</em> カウントダウンタイマーのいずれかの位置に1が表示されている時</li>            </ul>
+        </div>
+        <div class="page-footer relative-footer"></div>
+    </div>
+</div><div class="section">
+	<div class="page">
+        		<div class="page-header">
+			<span class="page-header-doc-title">Keep Talking and Nobody Explodes v. 1</span>
+			<span class="page-header-section-title">Keypads</span>
+		</div>
+	    <div class="page-footer absolute-footer"></div>
+	    <div class="page-content">
+		    <img src="img/KeypadComponent.svg" class="diagram" />
+		    <h2>On the Subject of Keypads</h2>
+		    <p class="flavour-text">
+			    I'm not sure what these symbols are, but I suspect they have something to do with occult.
+		    </p>
+			<ul>
+				<li>
+					下記の表のうちキーパッドに印字されている4つのシンボル全てが含まれている列が1列だけあります。
+				</li>
+				<li>
+					印字されているシンボルが該当列の上から下の順にキーパッドの4つのボタンを押下して下さい。
+				</li>
+			</ul>
+			<br/>
+			<br/>
+			<table class="keypad-table">
+				<tr><td class="keypad-table-column"><img class="keypad-symbol-image" src="img/symbols/28-balloon.png"></img></td><td class="keypad-table-spacer"></td><td class="keypad-table-column"><img class="keypad-symbol-image" src="img/symbols/16-euro.png"></img></td><td class="keypad-table-spacer"></td><td class="keypad-table-column"><img class="keypad-symbol-image" src="img/symbols/1-copyright.png"></img></td><td class="keypad-table-spacer"></td><td class="keypad-table-column"><img class="keypad-symbol-image" src="img/symbols/11-six.png"></img></td><td class="keypad-table-spacer"></td><td class="keypad-table-column"><img class="keypad-symbol-image" src="img/symbols/24-pitchfork.png"></img></td><td class="keypad-table-spacer"></td><td class="keypad-table-column"><img class="keypad-symbol-image" src="img/symbols/11-six.png"></img></td></tr><tr><td class="keypad-table-column"><img class="keypad-symbol-image" src="img/symbols/13-at.png"></img></td><td class="keypad-table-spacer"></td><td class="keypad-table-column"><img class="keypad-symbol-image" src="img/symbols/28-balloon.png"></img></td><td class="keypad-table-spacer"></td><td class="keypad-table-column"><img class="keypad-symbol-image" src="img/symbols/8-pumpkin.png"></img></td><td class="keypad-table-spacer"></td><td class="keypad-table-column"><img class="keypad-symbol-image" src="img/symbols/21-paragraph.png"></img></td><td class="keypad-table-spacer"></td><td class="keypad-table-column"><img class="keypad-symbol-image" src="img/symbols/4-smileyface.png"></img></td><td class="keypad-table-spacer"></td><td class="keypad-table-column"><img class="keypad-symbol-image" src="img/symbols/16-euro.png"></img></td></tr><tr><td class="keypad-table-column"><img class="keypad-symbol-image" src="img/symbols/30-upsidedowny.png"></img></td><td class="keypad-table-spacer"></td><td class="keypad-table-column"><img class="keypad-symbol-image" src="img/symbols/23-leftc.png"></img></td><td class="keypad-table-spacer"></td><td class="keypad-table-column"><img class="keypad-symbol-image" src="img/symbols/26-cursive.png"></img></td><td class="keypad-table-spacer"></td><td class="keypad-table-column"><img class="keypad-symbol-image" src="img/symbols/31-bt.png"></img></td><td class="keypad-table-spacer"></td><td class="keypad-table-column"><img class="keypad-symbol-image" src="img/symbols/31-bt.png"></img></td><td class="keypad-table-spacer"></td><td class="keypad-table-column"><img class="keypad-symbol-image" src="img/symbols/27-tracks.png"></img></td></tr><tr><td class="keypad-table-column"><img class="keypad-symbol-image" src="img/symbols/12-squigglyn.png"></img></td><td class="keypad-table-spacer"></td><td class="keypad-table-column"><img class="keypad-symbol-image" src="img/symbols/26-cursive.png"></img></td><td class="keypad-table-spacer"></td><td class="keypad-table-column"><img class="keypad-symbol-image" src="img/symbols/5-doublek.png"></img></td><td class="keypad-table-spacer"></td><td class="keypad-table-column"><img class="keypad-symbol-image" src="img/symbols/7-squidknife.png"></img></td><td class="keypad-table-spacer"></td><td class="keypad-table-column"><img class="keypad-symbol-image" src="img/symbols/22-rightc.png"></img></td><td class="keypad-table-spacer"></td><td class="keypad-table-column"><img class="keypad-symbol-image" src="img/symbols/14-ae.png"></img></td></tr><tr><td class="keypad-table-column"><img class="keypad-symbol-image" src="img/symbols/7-squidknife.png"></img></td><td class="keypad-table-spacer"></td><td class="keypad-table-column"><img class="keypad-symbol-image" src="img/symbols/3-hollowstar.png"></img></td><td class="keypad-table-spacer"></td><td class="keypad-table-column"><img class="keypad-symbol-image" src="img/symbols/15-meltedthree.png"></img></td><td class="keypad-table-spacer"></td><td class="keypad-table-column"><img class="keypad-symbol-image" src="img/symbols/5-doublek.png"></img></td><td class="keypad-table-spacer"></td><td class="keypad-table-column"><img class="keypad-symbol-image" src="img/symbols/21-paragraph.png"></img></td><td class="keypad-table-spacer"></td><td class="keypad-table-column"><img class="keypad-symbol-image" src="img/symbols/24-pitchfork.png"></img></td></tr><tr><td class="keypad-table-column"><img class="keypad-symbol-image" src="img/symbols/9-hookn.png"></img></td><td class="keypad-table-spacer"></td><td class="keypad-table-column"><img class="keypad-symbol-image" src="img/symbols/9-hookn.png"></img></td><td class="keypad-table-spacer"></td><td class="keypad-table-column"><img class="keypad-symbol-image" src="img/symbols/30-upsidedowny.png"></img></td><td class="keypad-table-spacer"></td><td class="keypad-table-column"><img class="keypad-symbol-image" src="img/symbols/20-questionmark.png"></img></td><td class="keypad-table-spacer"></td><td class="keypad-table-column"><img class="keypad-symbol-image" src="img/symbols/19-dragon.png"></img></td><td class="keypad-table-spacer"></td><td class="keypad-table-column"><img class="keypad-symbol-image" src="img/symbols/18-nwithhat.png"></img></td></tr><tr><td class="keypad-table-column"><img class="keypad-symbol-image" src="img/symbols/23-leftc.png"></img></td><td class="keypad-table-spacer"></td><td class="keypad-table-column"><img class="keypad-symbol-image" src="img/symbols/20-questionmark.png"></img></td><td class="keypad-table-spacer"></td><td class="keypad-table-column"><img class="keypad-symbol-image" src="img/symbols/3-hollowstar.png"></img></td><td class="keypad-table-spacer"></td><td class="keypad-table-column"><img class="keypad-symbol-image" src="img/symbols/4-smileyface.png"></img></td><td class="keypad-table-spacer"></td><td class="keypad-table-column"><img class="keypad-symbol-image" src="img/symbols/2-filledstar.png"></img></td><td class="keypad-table-spacer"></td><td class="keypad-table-column"><img class="keypad-symbol-image" src="img/symbols/6-omega.png"></img></td></tr>			</table>
+	    </div>
+        <div class="page-footer relative-footer"></div>
+    </div>
+</div><div class="section">
+    <div class="page">
+        		<div class="page-header">
+			<span class="page-header-doc-title">Keep Talking and Nobody Explodes v. 1</span>
+			<span class="page-header-section-title">Simon Says</span>
+		</div>
+        <div class="page-footer absolute-footer"></div>
+        <div class="page-content">
+    	    <img src="img/SimonComponent.svg" class="diagram" />
+            <h2>On the Subject of Simon Says</h2>
+            <p class="flavour-text">This is like one of those toys you played with as a kid where you have to match the pattern that appears, except this one is a knockoff that was probably purchased at a dollar store.</p>
+            
+			<ol>
+				<li>4色のボタンのうち1つが点滅します。</li>
+				<li>下記の適切な表を用いて対応する色のボタンを押下します。</li>
+				<li>前に点滅したボタンが再び点滅し、その後点滅するボタンが1つ増えます。表を参考に上記の手順を繰り返して下さい。</li>
+				<li>モジュールが解除されるまでの間は入力の成功ごとに点滅するボタンの数が1つずつ増えます。</li>
+			</ol>
+		    <img src="img/SimonComponent_ColourLegend.svg" style="height: 9em; margin: 1em auto; display: block;" alt="Top: Blue, Left: Red, Right: Yellow, Bottom: Green" />
+
+    <p>シリアルナンバーに母音が含まれる場合:<p>
+                        <table class="repeaters-table">
+                <tr>
+            	    <th colspan="2" class="repeaters-spacer"></th>
+                    <th>Red Flash</th>
+                    <th>Blue Flash</th>
+                    <th>Green Flash</th>
+                    <th>Yellow Flash</th>
+                </tr>
+                <tr><th rowspan="3" nowrap>押下するボタン:</th>
+                <th nowrap>0&nbsp;ストライク</th><td>Blue</td><td>Red</td><td>Yellow</td><td>Green</td></tr>
+                <th nowrap>1&nbsp;ストライク</th><td>Yellow</td><td>Green</td><td>Blue</td><td>Red</td></tr>
+                <th nowrap>2&nbsp;ストライク</th><td>Green</td><td>Red</td><td>Yellow</td><td>Blue</td></tr>            </table>
+        
+    <p>シリアルナンバーに母音が<em>含まれない</em>場合:<p>
+            <table class="repeaters-table">
+                <tr>
+            	    <th colspan="2" class="repeaters-spacer"></th>
+                    <th>Red Flash</th>
+                    <th>Blue Flash</th>
+                    <th>Green Flash</th>
+                    <th>Yellow Flash</th>
+                </tr>
+                <tr><th rowspan="3" nowrap>押下するボタン:</th>
+                <th nowrap>0&nbsp;ストライク</th><td>Blue</td><td>Yellow</td><td>Green</td><td>Red</td></tr>
+                <th nowrap>1&nbsp;ストライク</th><td>Red</td><td>Blue</td><td>Yellow</td><td>Green</td></tr>
+                <th nowrap>2&nbsp;ストライク</th><td>Yellow</td><td>Green</td><td>Blue</td><td>Red</td></tr>            </table>
+
+        </div>
+        <div class="page-footer relative-footer"></div>
+    </div>
+</div>
+
+<div class="section">
+        <div class="page">
+        		<div class="page-header">
+			<span class="page-header-doc-title">Keep Talking and Nobody Explodes v. 1</span>
+			<span class="page-header-section-title">Who's on First</span>
+		</div>
+        <div class="page-footer absolute-footer"></div>
+        <div class="page-content">
+    	    <img src="img/WhosOnFirstComponent.svg" class="diagram" />
+            <h2>On the Subject of Who’s on First</h2>
+            <p class="flavour-text">This contraption is like something out of a sketch comedy routine, which might be funny if it wasn't connected to a bomb. I’ll keep this brief, as words only complicate matters.</p>
+		    <ol>
+			    <li>ディスプレイの表示を読み取り、step 1に従って<u>読み取る</u>ボタンのラベルを判別して下さい。</li>
+			    <li>ボタンのラベルを読み取り、step 2に従って<u>押下する</u>ボタンを判別して下さい。</li>
+			    <li>モジュールが解除されるまで上記の手順を繰り返して下さい。</li>
+		    </ol>
+            <h3>Step 1:</h3>
+			<p>ディスプレイの表示を元に当該のボタンのラベルを<u>読み取り</u>、step 2に進む:</p>
+			<table class="whos-on-first-step1-table">
+			<tr><td><table><tr><th class="whos-on-first-look-at-display" colspan="2">YES</th></tr><tr><td><br /></td><td><br /></td></tr><tr><td class="whos-on-first-look-at"><img src="img/eye-icon.png" alt="Look At" style="height: 1em;" /></td><td><br /></td></tr><tr><td><br /></td><td><br /></td></tr></table></td><td><table><tr><th class="whos-on-first-look-at-display" colspan="2">FIRST</th></tr><tr><td><br /></td><td class="whos-on-first-look-at"><img src="img/eye-icon.png" alt="Look At" style="height: 1em;" /></td></tr><tr><td><br /></td><td><br /></td></tr><tr><td><br /></td><td><br /></td></tr></table></td><td><table><tr><th class="whos-on-first-look-at-display" colspan="2">DISPLAY</th></tr><tr><td><br /></td><td><br /></td></tr><tr><td><br /></td><td><br /></td></tr><tr><td><br /></td><td class="whos-on-first-look-at"><img src="img/eye-icon.png" alt="Look At" style="height: 1em;" /></td></tr></table></td><td><table><tr><th class="whos-on-first-look-at-display" colspan="2">OKAY</th></tr><tr><td><br /></td><td class="whos-on-first-look-at"><img src="img/eye-icon.png" alt="Look At" style="height: 1em;" /></td></tr><tr><td><br /></td><td><br /></td></tr><tr><td><br /></td><td><br /></td></tr></table></td><td><table><tr><th class="whos-on-first-look-at-display" colspan="2">SAYS</th></tr><tr><td><br /></td><td><br /></td></tr><tr><td><br /></td><td><br /></td></tr><tr><td><br /></td><td class="whos-on-first-look-at"><img src="img/eye-icon.png" alt="Look At" style="height: 1em;" /></td></tr></table></td><td><table><tr><th class="whos-on-first-look-at-display" colspan="2">NOTHING</th></tr><tr><td><br /></td><td><br /></td></tr><tr><td class="whos-on-first-look-at"><img src="img/eye-icon.png" alt="Look At" style="height: 1em;" /></td><td><br /></td></tr><tr><td><br /></td><td><br /></td></tr></table></td></tr><tr><td><table><tr><th class="whos-on-first-look-at-display" colspan="2"><br/></th></tr><tr><td><br /></td><td><br /></td></tr><tr><td><br /></td><td><br /></td></tr><tr><td class="whos-on-first-look-at"><img src="img/eye-icon.png" alt="Look At" style="height: 1em;" /></td><td><br /></td></tr></table></td><td><table><tr><th class="whos-on-first-look-at-display" colspan="2">BLANK</th></tr><tr><td><br /></td><td><br /></td></tr><tr><td><br /></td><td class="whos-on-first-look-at"><img src="img/eye-icon.png" alt="Look At" style="height: 1em;" /></td></tr><tr><td><br /></td><td><br /></td></tr></table></td><td><table><tr><th class="whos-on-first-look-at-display" colspan="2">NO</th></tr><tr><td><br /></td><td><br /></td></tr><tr><td><br /></td><td><br /></td></tr><tr><td><br /></td><td class="whos-on-first-look-at"><img src="img/eye-icon.png" alt="Look At" style="height: 1em;" /></td></tr></table></td><td><table><tr><th class="whos-on-first-look-at-display" colspan="2">LED</th></tr><tr><td><br /></td><td><br /></td></tr><tr><td class="whos-on-first-look-at"><img src="img/eye-icon.png" alt="Look At" style="height: 1em;" /></td><td><br /></td></tr><tr><td><br /></td><td><br /></td></tr></table></td><td><table><tr><th class="whos-on-first-look-at-display" colspan="2">LEAD</th></tr><tr><td><br /></td><td><br /></td></tr><tr><td><br /></td><td><br /></td></tr><tr><td><br /></td><td class="whos-on-first-look-at"><img src="img/eye-icon.png" alt="Look At" style="height: 1em;" /></td></tr></table></td><td><table><tr><th class="whos-on-first-look-at-display" colspan="2">READ</th></tr><tr><td><br /></td><td><br /></td></tr><tr><td><br /></td><td class="whos-on-first-look-at"><img src="img/eye-icon.png" alt="Look At" style="height: 1em;" /></td></tr><tr><td><br /></td><td><br /></td></tr></table></td></tr><tr><td><table><tr><th class="whos-on-first-look-at-display" colspan="2">RED</th></tr><tr><td><br /></td><td><br /></td></tr><tr><td><br /></td><td class="whos-on-first-look-at"><img src="img/eye-icon.png" alt="Look At" style="height: 1em;" /></td></tr><tr><td><br /></td><td><br /></td></tr></table></td><td><table><tr><th class="whos-on-first-look-at-display" colspan="2">REED</th></tr><tr><td><br /></td><td><br /></td></tr><tr><td><br /></td><td><br /></td></tr><tr><td class="whos-on-first-look-at"><img src="img/eye-icon.png" alt="Look At" style="height: 1em;" /></td><td><br /></td></tr></table></td><td><table><tr><th class="whos-on-first-look-at-display" colspan="2">LEED</th></tr><tr><td><br /></td><td><br /></td></tr><tr><td><br /></td><td><br /></td></tr><tr><td class="whos-on-first-look-at"><img src="img/eye-icon.png" alt="Look At" style="height: 1em;" /></td><td><br /></td></tr></table></td><td><table><tr><th class="whos-on-first-look-at-display" colspan="2">HOLD ON</th></tr><tr><td><br /></td><td><br /></td></tr><tr><td><br /></td><td><br /></td></tr><tr><td><br /></td><td class="whos-on-first-look-at"><img src="img/eye-icon.png" alt="Look At" style="height: 1em;" /></td></tr></table></td><td><table><tr><th class="whos-on-first-look-at-display" colspan="2">YOU</th></tr><tr><td><br /></td><td><br /></td></tr><tr><td><br /></td><td class="whos-on-first-look-at"><img src="img/eye-icon.png" alt="Look At" style="height: 1em;" /></td></tr><tr><td><br /></td><td><br /></td></tr></table></td><td><table><tr><th class="whos-on-first-look-at-display" colspan="2">YOU ARE</th></tr><tr><td><br /></td><td><br /></td></tr><tr><td><br /></td><td><br /></td></tr><tr><td><br /></td><td class="whos-on-first-look-at"><img src="img/eye-icon.png" alt="Look At" style="height: 1em;" /></td></tr></table></td></tr><tr><td><table><tr><th class="whos-on-first-look-at-display" colspan="2">YOUR</th></tr><tr><td><br /></td><td><br /></td></tr><tr><td><br /></td><td class="whos-on-first-look-at"><img src="img/eye-icon.png" alt="Look At" style="height: 1em;" /></td></tr><tr><td><br /></td><td><br /></td></tr></table></td><td><table><tr><th class="whos-on-first-look-at-display" colspan="2">YOU'RE</th></tr><tr><td><br /></td><td><br /></td></tr><tr><td><br /></td><td class="whos-on-first-look-at"><img src="img/eye-icon.png" alt="Look At" style="height: 1em;" /></td></tr><tr><td><br /></td><td><br /></td></tr></table></td><td><table><tr><th class="whos-on-first-look-at-display" colspan="2">UR</th></tr><tr><td class="whos-on-first-look-at"><img src="img/eye-icon.png" alt="Look At" style="height: 1em;" /></td><td><br /></td></tr><tr><td><br /></td><td><br /></td></tr><tr><td><br /></td><td><br /></td></tr></table></td><td><table><tr><th class="whos-on-first-look-at-display" colspan="2">THERE</th></tr><tr><td><br /></td><td><br /></td></tr><tr><td><br /></td><td><br /></td></tr><tr><td><br /></td><td class="whos-on-first-look-at"><img src="img/eye-icon.png" alt="Look At" style="height: 1em;" /></td></tr></table></td><td><table><tr><th class="whos-on-first-look-at-display" colspan="2">THEY'RE</th></tr><tr><td><br /></td><td><br /></td></tr><tr><td><br /></td><td><br /></td></tr><tr><td class="whos-on-first-look-at"><img src="img/eye-icon.png" alt="Look At" style="height: 1em;" /></td><td><br /></td></tr></table></td><td><table><tr><th class="whos-on-first-look-at-display" colspan="2">THEIR</th></tr><tr><td><br /></td><td><br /></td></tr><tr><td><br /></td><td class="whos-on-first-look-at"><img src="img/eye-icon.png" alt="Look At" style="height: 1em;" /></td></tr><tr><td><br /></td><td><br /></td></tr></table></td></tr><tr><td></td><td><table><tr><th class="whos-on-first-look-at-display" colspan="2">THEY ARE</th></tr><tr><td><br /></td><td><br /></td></tr><tr><td class="whos-on-first-look-at"><img src="img/eye-icon.png" alt="Look At" style="height: 1em;" /></td><td><br /></td></tr><tr><td><br /></td><td><br /></td></tr></table></td><td><table><tr><th class="whos-on-first-look-at-display" colspan="2">SEE</th></tr><tr><td><br /></td><td><br /></td></tr><tr><td><br /></td><td><br /></td></tr><tr><td><br /></td><td class="whos-on-first-look-at"><img src="img/eye-icon.png" alt="Look At" style="height: 1em;" /></td></tr></table></td><td><table><tr><th class="whos-on-first-look-at-display" colspan="2">C</th></tr><tr><td><br /></td><td class="whos-on-first-look-at"><img src="img/eye-icon.png" alt="Look At" style="height: 1em;" /></td></tr><tr><td><br /></td><td><br /></td></tr><tr><td><br /></td><td><br /></td></tr></table></td><td><table><tr><th class="whos-on-first-look-at-display" colspan="2">CEE</th></tr><tr><td><br /></td><td><br /></td></tr><tr><td><br /></td><td><br /></td></tr><tr><td><br /></td><td class="whos-on-first-look-at"><img src="img/eye-icon.png" alt="Look At" style="height: 1em;" /></td></tr></table></td>			</table>
+        </div>
+        <div class="page-footer relative-footer"></div>
+    </div>
+
+    <div class="page">
+        		<div class="page-header">
+			<span class="page-header-doc-title">Keep Talking and Nobody Explodes v. 1</span>
+			<span class="page-header-section-title">Who's on First</span>
+		</div>
+        <div class="page-footer absolute-footer"></div>
+        <div class="page-content">
+            <h3>Step 2:</h3>
+            <p>step 1のラベルを元に、対応するリストに<u>最初に現れるボタンを押下する</u>:</p>
+            <table class="whos-on-first-step2-table">
+            	<tr><th>"READY":</th><td>YES, OKAY, WHAT, MIDDLE, LEFT, PRESS, RIGHT, BLANK, READY, NO, FIRST, UHHH, NOTHING, WAIT</td></tr><tr><th>"FIRST":</th><td>LEFT, OKAY, YES, MIDDLE, NO, RIGHT, NOTHING, UHHH, WAIT, READY, BLANK, WHAT, PRESS, FIRST</td></tr><tr><th>"NO":</th><td>BLANK, UHHH, WAIT, FIRST, WHAT, READY, RIGHT, YES, NOTHING, LEFT, PRESS, OKAY, NO, MIDDLE</td></tr><tr><th>"BLANK":</th><td>WAIT, RIGHT, OKAY, MIDDLE, BLANK, PRESS, READY, NOTHING, NO, WHAT, LEFT, UHHH, YES, FIRST</td></tr><tr><th>"NOTHING":</th><td>UHHH, RIGHT, OKAY, MIDDLE, YES, BLANK, NO, PRESS, LEFT, WHAT, WAIT, FIRST, NOTHING, READY</td></tr><tr><th>"YES":</th><td>OKAY, RIGHT, UHHH, MIDDLE, FIRST, WHAT, PRESS, READY, NOTHING, YES, LEFT, BLANK, NO, WAIT</td></tr><tr><th>"WHAT":</th><td>UHHH, WHAT, LEFT, NOTHING, READY, BLANK, MIDDLE, NO, OKAY, FIRST, WAIT, YES, PRESS, RIGHT</td></tr><tr><th>"UHHH":</th><td>READY, NOTHING, LEFT, WHAT, OKAY, YES, RIGHT, NO, PRESS, BLANK, UHHH, MIDDLE, WAIT, FIRST</td></tr><tr><th>"LEFT":</th><td>RIGHT, LEFT, FIRST, NO, MIDDLE, YES, BLANK, WHAT, UHHH, WAIT, PRESS, READY, OKAY, NOTHING</td></tr><tr><th>"RIGHT":</th><td>YES, NOTHING, READY, PRESS, NO, WAIT, WHAT, RIGHT, MIDDLE, LEFT, UHHH, BLANK, OKAY, FIRST</td></tr><tr><th>"MIDDLE":</th><td>BLANK, READY, OKAY, WHAT, NOTHING, PRESS, NO, WAIT, LEFT, MIDDLE, RIGHT, FIRST, UHHH, YES</td></tr><tr><th>"OKAY":</th><td>MIDDLE, NO, FIRST, YES, UHHH, NOTHING, WAIT, OKAY, LEFT, READY, BLANK, PRESS, WHAT, RIGHT</td></tr><tr><th>"WAIT":</th><td>UHHH, NO, BLANK, OKAY, YES, LEFT, FIRST, PRESS, WHAT, WAIT, NOTHING, READY, RIGHT, MIDDLE</td></tr><tr><th>"PRESS":</th><td>RIGHT, MIDDLE, YES, READY, PRESS, OKAY, NOTHING, UHHH, BLANK, LEFT, FIRST, WHAT, NO, WAIT</td></tr><tr><th>"YOU":</th><td>SURE, YOU ARE, YOUR, YOU'RE, NEXT, UH HUH, UR, HOLD, WHAT?, YOU, UH UH, LIKE, DONE, U</td></tr><tr><th>"YOU ARE":</th><td>YOUR, NEXT, LIKE, UH HUH, WHAT?, DONE, UH UH, HOLD, YOU, U, YOU'RE, SURE, UR, YOU ARE</td></tr><tr><th>"YOUR":</th><td>UH UH, YOU ARE, UH HUH, YOUR, NEXT, UR, SURE, U, YOU'RE, YOU, WHAT?, HOLD, LIKE, DONE</td></tr><tr><th>"YOU'RE":</th><td>YOU, YOU'RE, UR, NEXT, UH UH, YOU ARE, U, YOUR, WHAT?, UH HUH, SURE, DONE, LIKE, HOLD</td></tr><tr><th>"UR":</th><td>DONE, U, UR, UH HUH, WHAT?, SURE, YOUR, HOLD, YOU'RE, LIKE, NEXT, UH UH, YOU ARE, YOU</td></tr><tr><th>"U":</th><td>UH HUH, SURE, NEXT, WHAT?, YOU'RE, UR, UH UH, DONE, U, YOU, LIKE, HOLD, YOU ARE, YOUR</td></tr><tr><th>"UH HUH":</th><td>UH HUH, YOUR, YOU ARE, YOU, DONE, HOLD, UH UH, NEXT, SURE, LIKE, YOU'RE, UR, U, WHAT?</td></tr><tr><th>"UH UH":</th><td>UR, U, YOU ARE, YOU'RE, NEXT, UH UH, DONE, YOU, UH HUH, LIKE, YOUR, SURE, HOLD, WHAT?</td></tr><tr><th>"WHAT?":</th><td>YOU, HOLD, YOU'RE, YOUR, U, DONE, UH UH, LIKE, YOU ARE, UH HUH, UR, NEXT, WHAT?, SURE</td></tr><tr><th>"DONE":</th><td>SURE, UH HUH, NEXT, WHAT?, YOUR, UR, YOU'RE, HOLD, LIKE, YOU, U, YOU ARE, UH UH, DONE</td></tr><tr><th>"NEXT":</th><td>WHAT?, UH HUH, UH UH, YOUR, HOLD, SURE, NEXT, LIKE, DONE, YOU ARE, UR, YOU'RE, U, YOU</td></tr><tr><th>"HOLD":</th><td>YOU ARE, U, DONE, UH UH, YOU, UR, SURE, WHAT?, YOU'RE, NEXT, HOLD, UH HUH, YOUR, LIKE</td></tr><tr><th>"SURE":</th><td>YOU ARE, DONE, LIKE, YOU'RE, YOU, HOLD, UH HUH, UR, SURE, U, WHAT?, NEXT, YOUR, UH UH</td></tr><tr><th>"LIKE":</th><td>YOU'RE, NEXT, U, UR, HOLD, DONE, UH UH, WHAT?, UH HUH, YOU, LIKE, SURE, YOU ARE, YOUR</td></tr>            </table>
+        </div>
+        <div class="page-footer relative-footer"></div>
+    </div>
+</div><div class="section">
+    <div class="page">
+        		<div class="page-header">
+			<span class="page-header-doc-title">Keep Talking and Nobody Explodes v. 1</span>
+			<span class="page-header-section-title">Memory</span>
+		</div>
+        <div class="page-footer absolute-footer"></div>
+        <div class="page-content">
+    	    <img src="img/MemoryComponent.svg" class="diagram" />
+            <h2>On the Subject of Memory</h2>
+		    <p class="flavour-text">Memory is a fragile thing but so is everything else when a bomb goes off, so pay attention!</p>
+		    <ul>
+				<li>各ステージ毎の指示に従い正しいボタンを押下しモジュールを次のステージに進めて下さい。全てのステージを完了するとモジュールが解除されます。</li>
+			    <li>誤ったボタンを押下するとモジュールはステージ1に戻ります。</li>
+                <li>ボタンの位置については左から右の順に数えます。</li>
+		    </ul>
+            <div class="memory-rules">
+            	<h4>Stage 1:</h4>
+            	<p>ディスプレイの表示が1の場合、二番目のボタンを押下する。<br />
+            	ディスプレイの表示が2の場合、二番目のボタンを押下する。<br />
+            	ディスプレイの表示が3の場合、三番目のボタンを押下する。<br />
+            	ディスプレイの表示が4の場合、四番目のボタンを押下する。<br />
+            	</p><h4>Stage 2:</h4><p>ディスプレイの表示が1の場合、"4"と印字されているボタンを押下する。<br />
+            	ディスプレイの表示が2の場合、stage 1で押下したボタンと同じ位置のボタンを押下する。<br />
+            	ディスプレイの表示が3の場合、一番目のボタンを押下する<br />
+            	ディスプレイの表示が4の場合、stage 1で押下したボタンと同じ位置のボタンを押下する。<br />
+            	</p><h4>Stage 3:</h4><p>ディスプレイの表示が1の場合、stage 2で押下したボタンと同じ印字のボタンを押下する。<br />
+            	ディスプレイの表示が2の場合、stage 1で押下したボタンと同じ印字のボタンを押下する。<br />
+            	ディスプレイの表示が3の場合、三番目のボタンを押下する。<br />
+            	ディスプレイの表示が4の場合、"4"と印字されているボタンを押下する。<br />
+            	</p><h4>Stage 4:</h4><p>ディスプレイの表示が1の場合、stage 1で押下したボタンと同じ位置のボタンを押下する。<br />
+            	ディスプレイの表示が2の場合、一番目のボタンを押下する。<br />
+            	ディスプレイの表示が3の場合、stage 2で押下したボタンと同じ位置のボタンを押下する。<br />
+            	ディスプレイの表示が4の場合、stage 2で押下したボタンと同じ位置のボタンを押下する。<br />
+            	</p><h4>Stage 5:</h4><p>ディスプレイの表示が1の場合、stage 1で押下したボタンと同じ印字のボタンを押下する。<br />
+            	ディスプレイの表示が2の場合、stage 2で押下したボタンと同じ印字のボタンを押下する。 <br />
+            	ディスプレイの表示が3の場合、stage 4で押下したボタンと同じ印字のボタンを押下する。 <br />
+            	ディスプレイの表示が4の場合、stage 3で押下したボタンと同じ印字のボタンを押下する。 <br />
+            	</p>            </div>
+        </div>
+        <div class="page-footer relative-footer"></div>
+    </div>
+</div>
+<div class="section">
+    <div class="page morse-code">
+        		<div class="page-header">
+			<span class="page-header-doc-title">Keep Talking and Nobody Explodes v. 1</span>
+			<span class="page-header-section-title">Morse Code</span>
+		</div>
+        <div class="page-footer absolute-footer"></div>
+        <div class="page-content">
+    	    <img src="img/MorseCodeComponent.svg" class="diagram" />
+            <h2>On the Subject of Morse Code</h2>
+		        <p class="flavour-text">An antiquated form of naval communication? What next? At least it's genuine Morse Code, so pay attention and you might just learn something.</p>
+				<ul>
+					<li>モールス信号の図を参考にライトの点滅から信号を解読し、表から単語を特定して下さい。</li>
+					<li>信号は一定の間隔を開けて繰り返されます。</li>
+					<li>特定した単語に対応する周波数を設定して転送(TX)ボタンを押下して下さい。</li>
+				</ul>
+			
+		    <img id="morseCodeChart" src="img/MorseCode/International_Morse_Code.svg"/>	
+					
+		    <table>
+			    <tr><th>If the word is:</th><th>Respond at frequency:</th></tr>
+			    <tr><td>shell</td><td>3.505 MHz</td></tr><tr><td>halls</td><td>3.515 MHz</td></tr><tr><td>slick</td><td>3.522 MHz</td></tr><tr><td>trick</td><td>3.532 MHz</td></tr><tr><td>boxes</td><td>3.535 MHz</td></tr><tr><td>leaks</td><td>3.542 MHz</td></tr><tr><td>strobe</td><td>3.545 MHz</td></tr><tr><td>bistro</td><td>3.552 MHz</td></tr><tr><td>flick</td><td>3.555 MHz</td></tr><tr><td>bombs</td><td>3.565 MHz</td></tr><tr><td>break</td><td>3.572 MHz</td></tr><tr><td>brick</td><td>3.575 MHz</td></tr><tr><td>steak</td><td>3.582 MHz</td></tr><tr><td>sting</td><td>3.592 MHz</td></tr><tr><td>vector</td><td>3.595 MHz</td></tr><tr><td>beats</td><td>3.600 MHz</td></tr>		    </table>	
+        </div>
+        <div class="page-footer relative-footer"></div>
+    </div>
+</div>
+<div class="section">
+    <div class="page venn-wires">
+        		<div class="page-header">
+			<span class="page-header-doc-title">Keep Talking and Nobody Explodes v. 1</span>
+			<span class="page-header-section-title">Complicated Wires</span>
+		</div>
+        <div class="page-footer absolute-footer"></div>
+        <div class="page-content">
+    	    <img src="img/VennWireComponent.svg" class="diagram" />
+            <h2>On the Subject of Complicated Wires</h2>
+		        <p class="flavour-text">These wires aren't like the others. Some have stripes! That makes them completely different. The good news is that we've found a concise set of instructions on what to do about it! Maybe too concise...</p>
+			    <ul>
+				    <li>各ワイヤーを確認する: ワイヤー上部にはLEDがあり、下部には"★"のシンボルを記す欄があります。</li>
+				    <li><b>各ワイヤー毎に</b>ワイヤー/LED/シンボルの組み合わせから下記のベン図を用いてワイヤーを切断するかどうかを判断して下さい。</li>
+                    <li>ワイヤーは複数の色によるストライプである場合があります。</li>
+			    </ul>
+			
+			
+		    
+		    <div>
+			    <object id="venndiagram" width="100%" height="100%" data="img/gen/venn/venndiagram.svg" type="image/svg+xml"></object>
+		    </div>
+		    <div>
+			    <object width="100%" height="100%" id="vennlegend" data="img/gen/venn/legend.svg" type="image/svg+xml"></object>
+			    <table id="venntable">
+				    <tr><th>文字</th><th>指示</th></tr>
+				    <tr><td>C</td><td>ワイヤーを切断する</td></tr>
+				    <tr><td>D</td><td>ワイヤーを切断しない</td></tr>
+				    <tr><td>S</td><td>シリアルナンバー末尾が偶数の場合は切断する</td></tr>
+				    <tr><td>P</td><td>爆弾にパラレルポートがある場合は切断する</td></tr>
+				    <tr><td>B</td><td>爆弾にバッテリーが2つ以上ある場合は切断する</td></tr>
+			    </table>
+		    </div>
+		    <div style="clear:both;"/>
+            <p class="appendix-reference">各バッテリーの識別には付録Bをご利用下さい。<br />各ポートの識別には付録Cをご利用下さい。</p>        </div>
+        <div class="page-footer relative-footer"></div>
+    </div>
+</div><div class="section">
+    <div class="page wire-sequence">
+        		<div class="page-header">
+			<span class="page-header-doc-title">Keep Talking and Nobody Explodes v. 1</span>
+			<span class="page-header-section-title">Wire Sequences</span>
+		</div>
+        <div class="page-footer absolute-footer"></div>
+        <div class="page-content">
+            <img src="img/WireSequenceComponent.svg" class="diagram" />
+            <h2>On the Subject of Wire Sequences</h2>
+            <p class="flavour-text">It's hard to say how this mechanism works. The engineering is pretty impressive, but there must have been an easier way to manage nine wires.</p>
+			<ul>
+			<li>このモジュールはワイヤーの配線された複数のパネルから構成されています。但し同時に目視できるパネルは常に1枚のみです。下ボタンによって次のパネルに切り替え、上ボタンによって前のパネルに切り替えることができます。</li>
+			<li>現在のパネルにあるワイヤーを全て正しく対処するまでは次のパネルに切り替えてはいけません。</li>
+			<li>下記の表の指示に従いワイヤーを切断して下さい。ワイヤーの出現回数は全てのパネルにおいて累積します。</li>
+			</ul>
+            <div style="clear:both"></div>
+            
+            <table class='red-table'>
+            <tr><th colspan='2' class='header'>赤色ワイヤー出現回数</th>
+            	</tr><tr><th class='first-col'>Wire Occurrence</th>
+            	<th class='second-col'>接続時に切断:</th>
+            	</tr>
+            	<tr><td class='first-col'>First&nbsp;red occurrence</td><td class='second-col'>C</td></tr>
+            	<tr><td class='first-col'>Second&nbsp;red occurrence</td><td class='second-col'>B</td></tr>
+            	<tr><td class='first-col'>Third&nbsp;red occurrence</td><td class='second-col'>A</td></tr>
+            	<tr><td class='first-col'>Fourth&nbsp;red occurrence</td><td class='second-col'>A or C</td></tr>
+            	<tr><td class='first-col'>Fifth&nbsp;red occurrence</td><td class='second-col'>B</td></tr>
+            	<tr><td class='first-col'>Sixth&nbsp;red occurrence</td><td class='second-col'>A or C</td></tr>
+            	<tr><td class='first-col'>Seventh&nbsp;red occurrence</td><td class='second-col'>A, B or C</td></tr>
+            	<tr><td class='first-col'>Eighth&nbsp;red occurrence</td><td class='second-col'>A or B</td></tr>
+            	<tr><td class='first-col'>Ninth&nbsp;red occurrence</td><td class='second-col'>B</td></tr>
+            	</table><table class='blue-table'><tr><th colspan='2' class='header'>青色ワイヤー出現回数</th>
+            	</tr>
+            	<tr><th class='first-col'>Wire Occurrence</th>
+            	<th class='second-col'>接続時に切断:</th>
+            	</tr>
+            	<tr><td class='first-col'>First&nbsp;blue occurrence</td><td class='second-col'>B</td></tr>
+            	<tr><td class='first-col'>Second&nbsp;blue occurrence</td><td class='second-col'>A or C</td></tr>
+            	<tr><td class='first-col'>Third&nbsp;blue occurrence</td><td class='second-col'>B</td></tr>
+            	<tr><td class='first-col'>Fourth&nbsp;blue occurrence</td><td class='second-col'>A</td></tr>
+            	<tr><td class='first-col'>Fifth&nbsp;blue occurrence</td><td class='second-col'>B</td></tr>
+            	<tr><td class='first-col'>Sixth&nbsp;blue occurrence</td><td class='second-col'>B or C</td></tr>
+            	<tr><td class='first-col'>Seventh&nbsp;blue occurrence</td><td class='second-col'>C</td></tr>
+            	<tr><td class='first-col'>Eighth&nbsp;blue occurrence</td><td class='second-col'>A or C</td></tr>
+            	<tr><td class='first-col'>Ninth&nbsp;blue occurrence</td><td class='second-col'>A</td></tr>
+            	</table><table class='black-table'><tr><th colspan='2' class='header'>黒色ワイヤー出現回数</th>
+            	</tr>
+            	<tr><th class='first-col'>Wire Occurrence</th>
+            	<th class='second-col'>接続時に切断:</th>
+            	</tr>
+            	<tr><td class='first-col'>First&nbsp;black occurrence</td><td class='second-col'>A, B or C</td></tr>
+            	<tr><td class='first-col'>Second&nbsp;black occurrence</td><td class='second-col'>A or C</td></tr>
+            	<tr><td class='first-col'>Third&nbsp;black occurrence</td><td class='second-col'>B</td></tr>
+            	<tr><td class='first-col'>Fourth&nbsp;black occurrence</td><td class='second-col'>A or C</td></tr>
+            	<tr><td class='first-col'>Fifth&nbsp;black occurrence</td><td class='second-col'>B</td></tr>
+            	<tr><td class='first-col'>Sixth&nbsp;black occurrence</td><td class='second-col'>B or C</td></tr>
+            	<tr><td class='first-col'>Seventh&nbsp;black occurrence</td><td class='second-col'>A or B</td></tr>
+            	<tr><td class='first-col'>Eighth&nbsp;black occurrence</td><td class='second-col'>C</td></tr>
+            	<tr><td class='first-col'>Ninth&nbsp;black occurrence</td><td class='second-col'>C</td></tr></table>        </div>
+        <div class="page-footer relative-footer"></div>
+    </div>
+</div><div class="section">
+    <div class="page">
+        		<div class="page-header">
+			<span class="page-header-doc-title">Keep Talking and Nobody Explodes v. 1</span>
+			<span class="page-header-section-title">Mazes</span>
+		</div>
+        <div class="page-footer absolute-footer"></div>
+        <div class="page-content">
+    	    <img src="img/MazeComponent.svg" class="diagram" />
+            <h2>On the Subject of Mazes</h2>
+            <p class="flavour-text">This seems to be some kind of maze, probably stolen off of a restaurant placemat.</p>
+            <ul>
+                <li>円のマークを元に一致する迷路図を特定して下さい。</li>
+                <li>方向ボタンを用いて白い点を赤い三角形へ誘導して下さい</li>
+                <li><strong>警告:</strong> 迷路内の線をまたいではいけません。線は爆弾には表示されません。</li>
+		    </ul>
+            <img class="maze" src="img/gen/maze/maze0.svg"/>
+            <img class="maze" src="img/gen/maze/maze1.svg"/>
+            <img class="maze" src="img/gen/maze/maze2.svg"/>
+            <img class="maze" src="img/gen/maze/maze3.svg"/>
+            <img class="maze" src="img/gen/maze/maze4.svg"/>
+            <img class="maze" src="img/gen/maze/maze5.svg"/>
+            <img class="maze" src="img/gen/maze/maze6.svg"/>
+            <img class="maze" src="img/gen/maze/maze7.svg"/>
+		    <img class="maze" src="img/gen/maze/maze8.svg"/>
+        </div>
+        <div class="page-footer relative-footer"></div>
+    </div>
+</div>
+<div class="section">
+    <div class="page">
+        		<div class="page-header">
+			<span class="page-header-doc-title">Keep Talking and Nobody Explodes v. 1</span>
+			<span class="page-header-section-title">Passwords</span>
+		</div>
+        <div class="page-footer absolute-footer"></div>
+        <div class="page-content">
+    	    <img src="img/PasswordComponent.svg" class="diagram" />
+            <h2>On the Subject of Passwords</h2>
+            <p class="flavour-text">Fortunately this password doesn't seem to meet standard government security requirements: 22 characters, mixed case, numbers in random order without any palindromes above length 3.</p>
+			<ul>
+				<li>各文字の上下にあるボタンを用いて各位置の文字を切り替えることができます。</li>
+				<li>文字の組み合わせのうち下記のパスワード表に一致する組み合わせが一組だけあります。</li>
+				<li>正しい単語を設定してsubmitボタンを押下して下さい。</li>
+			</ul>
+		    <table class="password-table">
+		    	<tr><tr><td>about</td><td>after</td><td>again</td><td>below</td><td>could</td></tr><tr><td>every</td><td>first</td><td>found</td><td>great</td><td>house</td></tr><tr><td>large</td><td>learn</td><td>never</td><td>other</td><td>place</td></tr><tr><td>plant</td><td>point</td><td>right</td><td>small</td><td>sound</td></tr><tr><td>spell</td><td>still</td><td>study</td><td>their</td><td>there</td></tr><tr><td>these</td><td>thing</td><td>think</td><td>three</td><td>water</td></tr><tr><td>where</td><td>which</td><td>world</td><td>would</td><td>write</td></tr>            </table>
+        </div>
+        <div class="page-footer relative-footer"></div>
+    </div>
+</div>
+<div class="section">
+    <div class="page section-title">
+        		<div class="page-header">
+			<span class="page-header-doc-title">Keep Talking and Nobody Explodes v. 1</span>
+			<span class="page-header-section-title">Section 2: Needy Modules</span>
+		</div>
+        <div class="page-footer absolute-footer"></div>
+        <div class="page-content">
+            <div class="vertical-spacer"></div>
+	        <img src="img/NeedyComponent.svg" class="diagram" />
+			<div class="new-block-formatting-context">
+				<h1>Section 2: Needy Modules</h1>
+				<p>Needyモジュールは解除することができません。また障害が発生する度に一時停止の処置を施す必要があります。</p>
+				<p>Needyモジュールには上部中央に小型のデジタルタイマーが接続されています。 爆弾の処理中にこのモジュールが起動することがあります。その際にはタイマーが切れる前に定常状態への処置を施す必要があります。</p>
+				<p>要確認: needyモジュールは常に再起動する可能性があります。</p>
+			</div>
+        </div>
+        <div class="page-footer relative-footer"></div>
+    </div>
+</div>
+<div class="section">
+    <div class="page">
+        		<div class="page-header">
+			<span class="page-header-doc-title">Keep Talking and Nobody Explodes v. 1</span>
+			<span class="page-header-section-title">Venting Gas</span>
+		</div>
+        <div class="page-footer absolute-footer"></div>
+        <div class="page-content">
+    	    <img src="img/NeedyVentComponent.svg" class="diagram" />
+            <h2>On the Subject of Venting Gas</h2>
+            <p class="flavour-text">Computer hacking is hard work! Well, it usually is. This job could probably be performed by a simple drinking bird pressing the same key over and over again.</p>
+			<ul>
+				<li>"Y"（Yes）ボタンと"N"（No）ボタンを用いてプロンプトの質問に応答して下さい。</li>
+			</ul>
+        </div>
+        <div class="page-footer relative-footer"></div>
+    </div>
+</div>
+<div class="section">
+    <div class="page">
+        		<div class="page-header">
+			<span class="page-header-doc-title">Keep Talking and Nobody Explodes v. 1</span>
+			<span class="page-header-section-title">Capacitor Discharge</span>
+		</div>
+        <div class="page-footer absolute-footer"></div>
+        <div class="page-content">
+    	    <img src="img/NeedyDischargeComponent.svg" class="diagram" />
+            <h2>On the Subject of Capacitor Discharge</h2>
+            <p class="flavour-text">I'm going to guess that this is just meant to occupy your attention, because otherwise this is some shoddy electronics work.</p>
+            <ul>
+				<li>過負荷状態になる前にレバーを下げ続けてコンデンサーを放電して下さい。</li>
+			<ul>
+        </div>
+        <div class="page-footer relative-footer"></div>
+    </div>
+</div>
+<div class="section">
+    <div class="page needy-knob">
+        		<div class="page-header">
+			<span class="page-header-doc-title">Keep Talking and Nobody Explodes v. 1</span>
+			<span class="page-header-section-title">Knobs</span>
+		</div>
+        <div class="page-footer absolute-footer"></div>
+        <div class="page-content">
+    	    <img src="img/NeedyKnobComponent.svg" class="diagram" />
+            <h2>On the Subject of Knobs</h2>
+            <p class="flavour-text">Needlessly complicated and endlessly needy. Imagine if such expertise were used to make something other than diabolical puzzles.</p>
+			<ul>
+				<li>ノブは四方向に切り替える事ができます。</li>
+				<li>タイマーが0になる時にノブが正しい位置に設定されている必要があります。</li>
+				<li>正しい位置は12個のLEDの発光パターンにより確認できます。</li>
+				<li>ノブの位置は"UP"の印字から相対的に決定されます。"UP"の位置は回転している場合があります。</li>
+			</ul>
+            <h3>LED Configurations</h3>
+            
+            <h4>Up Position:</h4><table style="display: inline-table"><tr><td> </td><td> </td><td>X</td><td> </td><td>X</td><td>X</td></tr><tr><td>X</td><td>X</td><td>X</td><td>X</td><td> </td><td>X</td></tr></table><table style="display: inline-table"><tr><td>X</td><td> </td><td>X</td><td> </td><td>X</td><td> </td></tr><tr><td> </td><td>X</td><td>X</td><td> </td><td>X</td><td>X</td></tr></table><h4>Down Position:</h4><table style="display: inline-table"><tr><td> </td><td>X</td><td>X</td><td> </td><td> </td><td>X</td></tr><tr><td>X</td><td>X</td><td>X</td><td>X</td><td> </td><td>X</td></tr></table><table style="display: inline-table"><tr><td>X</td><td> </td><td>X</td><td> </td><td>X</td><td> </td></tr><tr><td> </td><td>X</td><td> </td><td> </td><td> </td><td>X</td></tr></table><h4>Left Position:</h4><table style="display: inline-table"><tr><td> </td><td> </td><td> </td><td> </td><td>X</td><td> </td></tr><tr><td>X</td><td> </td><td> </td><td>X</td><td>X</td><td>X</td></tr></table><table style="display: inline-table"><tr><td> </td><td> </td><td> </td><td> </td><td>X</td><td> </td></tr><tr><td> </td><td> </td><td> </td><td>X</td><td>X</td><td> </td></tr></table><h4>Right Position:</h4><table style="display: inline-table"><tr><td>X</td><td> </td><td>X</td><td>X</td><td>X</td><td>X</td></tr><tr><td>X</td><td>X</td><td>X</td><td> </td><td>X</td><td> </td></tr></table><table style="display: inline-table"><tr><td>X</td><td> </td><td>X</td><td>X</td><td> </td><td> </td></tr><tr><td>X</td><td>X</td><td>X</td><td> </td><td>X</td><td> </td></tr></table>            <br>
+            <br>
+            <p class="needy-diagram-label">X = Lit LED</p>
+        </div>
+        <div class="page-footer relative-footer"></div>
+    </div>
+</div>
+<div class="section">
+    <div class="page appendix-indicators">
+        		<div class="page-header">
+			<span class="page-header-doc-title">Keep Talking and Nobody Explodes v. 1</span>
+			<span class="page-header-section-title">Appendix A</span>
+		</div>
+        <div class="page-footer absolute-footer"></div>
+        <div class="page-content">
+            <h2>Appendix A: Indicator Identification Reference</h2>
+            <p>ラベルインジケータは筐体の側面に配置されています。</p>
+            <img src="img/IndicatorWidget.svg" style="height: 5em; display:block; margin: .6em 0 0;" />
+            <h3>Common Indicators</h3>
+			<ul>
+                <li>SND</li>
+                <li>CLR</li>
+                <li>CAR</li>
+                <li>IND</li>
+                <li>FRQ</li>
+                <li>SIG</li>
+                <li>NSA</li>
+                <li>MSA</li>
+                <li>TRN</li>
+                <li>BOB</li>
+                <li>FRK</li>
+			</ul>
+        </div>
+        <div class="page-footer relative-footer"></div>
+    </div>
+</div><div class="section">
+    <div class="page appendix-batteries">
+        		<div class="page-header">
+			<span class="page-header-doc-title">Keep Talking and Nobody Explodes v. 1</span>
+			<span class="page-header-section-title">Appendix B</span>
+		</div>
+        <div class="page-footer absolute-footer"></div>
+        <div class="page-content">
+            <h2>Appendix B: Battery Identification Reference</h2>
+            <p>共通規格バッテリーは筐体側面にバッテリーケースと共に配置されています。</p>
+			<table style="margin-top: 1em;">
+				<tr><th>Battery</th><th>Type</th></tr>
+				<tr><td><img src="img/appendix-batteries/Battery-AA.svg"></td><td>AA</td></tr>	
+				<tr><td><img src="img/appendix-batteries/Battery-D.svg"></td><td>D</td></tr>
+			</table>
+        </div>
+        <div class="page-footer relative-footer"></div>
+    </div>
+</div><div class="section">
+    <div class="page appendix-ports">
+        		<div class="page-header">
+			<span class="page-header-doc-title">Keep Talking and Nobody Explodes v. 1</span>
+			<span class="page-header-section-title">Appendix C</span>
+		</div>
+        <div class="page-footer absolute-footer"></div>
+        <div class="page-content">
+            <h2>Appendix C: Port Identification Reference</h2>
+            <p>デジタルポート及びアナログポートは筐体の側面に配置されています。</p>
+			<table>
+				<tr><th>Port</th><th>Name</th></tr>
+				<tr><td><img src="img/appendix-ports/DVI.svg"></td><td>DVI-D</td></tr>	
+				<tr><td><img src="img/appendix-ports/Parallel.svg"></td><td>Parallel</td></tr>
+				<tr><td><img src="img/appendix-ports/PS2.svg"></td><td>PS/2</td></tr>
+				<tr><td><img src="img/appendix-ports/RJ45.svg"></td><td>RJ-45</td></tr>
+				<tr><td><img src="img/appendix-ports/Serial.svg"></td><td>Serial</td></tr>
+				<tr><td><img src="img/appendix-ports/StereoRCA.svg"></td><td>Stereo RCA</td></tr>
+			</table>
+        </div>
+        <div class="page-footer relative-footer"></div>
+    </div>
+</div>    </div>
+
+				<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+			<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
+	    <script src="js/main.js"></script>
+</body>
+</html>
